@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Merienda&display=swap');
 body {
         background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./images/IMG_4241.JPG);
         width: 100%;
@@ -54,10 +56,31 @@ body {
 .slogan-section {
     color: white;
     font-size: x-large;
+    font-family: 'Dosis', sans-serif;
     margin-top: calc(100vh - 400px);
 }
 
-#slogan text {
+.slogan-section-smaller {
     color: white;
+    font-size: small;
+    font-family: 'Dosis', sans-serif;
+    margin-top: calc(100vh - 300px);
 }
 
+.my-course-title {
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.about-me-content {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: x-large;
+
+}
+
+.about-me {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+}
