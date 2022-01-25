@@ -1,86 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Merienda&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Merienda&display=swap");
 body {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./images/IMG_4241.JPG);
-        width: 100%;
-        height: 100vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: right;
-        background-position-y: top;
-        background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(./images/IMG_4242.JPG);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: top;
+  background-attachment: fixed;
 }
 
 #logo {
-    width: 120px;
-    cursor: pointer; 
-    padding-top: 12px;
-    padding-left: 12px;
-    margin-left: 0;
+  width: 120px;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-left: 12px;
+  margin-left: 0;
 }
 
 .links {
-    position: relative;
-    float: right;
-    padding-top: 10px;
+  position: relative;
+  float: right;
+  padding-top: 10px;
 }
 
 .links a {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
-    padding: 30px 50px 0px 50px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+  padding: 30px 55px 0px 55px;
 }
 
 #vertical_list {
-    position: relative;
-    float: right;
-    list-style-type: none;
-    padding-right: 10px;
+  position: relative;
+  float: right;
+  list-style-type: none;
+  padding-right: 10px;
 }
 
-.nav-vertical li{
-    padding-top: 50px;
+.nav-vertical li {
+  padding-top: 50px;
 }
 
 #top_link {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .nav-vertical li a {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
 }
 
 .slogan-section {
-    color: white;
-    font-size: x-large;
-    font-family: 'Dosis', sans-serif;
-    margin-top: calc(100vh - 400px);
+  color: white;
+  font-size: x-large;
+  font-family: "Dosis", sans-serif;
+  margin-top: calc(100vh - 400px);
 }
 
 .slogan-section-smaller {
-    color: white;
-    font-size: small;
-    font-family: 'Dosis', sans-serif;
-    margin-top: calc(100vh - 300px);
+  color: white;
+  font-size: small;
+  font-family: "Dosis", sans-serif;
+  margin-top: calc(100vh - 300px);
 }
 
 .my-course-title {
-    color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-family: 'Dosis', sans-serif;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Dosis", sans-serif;
 }
 
 .about-me-content {
-    color: white;
-    font-family: 'Dosis', sans-serif;
-    font-size: x-large;
-
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: x-large;
 }
 
 .about-me {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.course-button {
+  padding-top: 90px;
+}
+
+.small-screen-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
