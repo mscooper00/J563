@@ -14,9 +14,8 @@ body {
 @media (max-width: 480px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-      url(./images/IMG_4240.JPG);
+      url(./images/IMG_edited.JPG);
     background-attachment: scroll;
-    background-position-x: right;
   }
 }
 
