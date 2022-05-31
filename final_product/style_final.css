@@ -63,7 +63,7 @@ body {
 
 .slogan-section-smaller {
   color: white;
-  font-size: small;
+  font-size: x-large;
   font-family: "Dosis", sans-serif;
   margin-top: calc(100vh - 300px);
 }
@@ -92,4 +92,8 @@ body {
 .small-screen-button {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.row-sources {
+    padding-left: 2px;
 }
