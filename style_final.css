@@ -83,7 +83,7 @@ body {
 
 .slogan-section-smaller {
   color: white;
-  font-size: x-large;
+  font-size: large;
   font-family: "Dosis", sans-serif;
   margin-top: calc(100vh - 300px);
 }
@@ -126,11 +126,29 @@ body {
   background-repeat: no-repeat;
 }
 
-.take-course-button {
+
+.phone-menu {
   float: right;
-  padding-top: 18px;
+  padding-right: 15px;
+  padding-top: 10px;
 }
 
-.background-phone {
-  background-color: blue;
+
+.three-bar-nav div {
+  height: 5px;
+  background-color: #fff;
+  margin: 10px 0px;
+  border-radius: 25px;
+}
+
+.one {
+  width: 55px;
+}
+
+.two {
+  width: 55px;
+}
+
+.three {
+  width: 55px;
 }
