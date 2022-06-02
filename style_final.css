@@ -14,6 +14,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
       url(./images/IMG_edited.JPG);
     background-attachment: scroll;
+    background-color: black;
   }
 }
 
