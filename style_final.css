@@ -128,3 +128,6 @@ body{
   background-repeat: no-repeat;
 }
 
+.myLink, .myLink:hover, .myLink:active, .myLink:visited, .myLink:focus {
+  text-decoration: none;
+}
