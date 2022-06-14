@@ -129,32 +129,6 @@ body{
 }
 
 
-.phone-menu {
-  float: right;
-  padding-right: 15px;
-  padding-top: 10px;
-}
-
-
-.three-bar-nav div {
-  height: 5px;
-  background-color: #fff;
-  margin: 10px 0px;
-  border-radius: 25px;
-}
-
-.one {
-  width: 55px;
-}
-
-.two {
-  width: 55px;
-}
-
-.three {
-  width: 55px;
-}
-
 .iphone-title {
   background-color: black;
 }
