@@ -131,3 +131,12 @@ body{
 .myLink, .myLink:hover, .myLink:active, .myLink:visited, .myLink:focus {
   text-decoration: none;
 }
+
+#myBtn {
+  color: blue;
+  display: inline;
+}
+
+#more {
+  display: none;
+}
