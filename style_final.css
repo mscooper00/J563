@@ -132,9 +132,22 @@ body{
   text-decoration: none;
 }
 
+.myLink:active {
+  color: none;
+}
+
+
 #myBtn {
   display: inline;
   color: #0275d8;
+}
+
+.show-me-link, .show-me-link:hover, .show-me-link:active, .show-me-link:visited, .show-me-link:focus {
+  text-decoration: none;
+}
+
+.show-me-link:active {
+  color: none;
 }
 
 #more {
