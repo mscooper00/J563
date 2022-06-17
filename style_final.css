@@ -162,3 +162,11 @@ body{
   color: #0275d8;
 }
 
+
+#myBtnTwo {
+  color:#0275d8; 
+}
+
+#more-two {
+  display: none;
+}
