@@ -1,7 +1,7 @@
-function myFunction() {
-        var dots = document.getElementById("dots");
-        var moreText = document.getElementById("more");
-        var btnText = document.getElementById("myBtn");
+function myFunction(dotsid, hiddenid, linkid) {
+        var dots = document.getElementById(dotsid);
+        var moreText = document.getElementById(hiddenid);
+        var btnText = document.getElementById(linkid);
 
         if (dots.style.display == "none") {
             dots.style.display = "inline";
@@ -15,22 +15,3 @@ function myFunction() {
             moreText.style.display = "inline"
         }
     }
-
-function dotTwo() {
-
-    var secondDots = document.getElementById("dots-two");
-    var moreTwo = document.getElementById("more-two");
-    var btnTextTwo = document.getElementById("myBtnTwo");
-
-    if (secondDots.style.display == "none") {
-        secondDots.style.display = "inline";
-        btnTextTwo.innerHTML = "Read More";
-        moreTwo.style.display = "none";
-    }
-    else {
-        secondDots.style.display = "none";
-        btnTextTwo.innerHTML = "Read Less";
-        moreTwo.style.display = "inline";
-    }
-
-}

@@ -128,9 +128,6 @@ body{
   background-repeat: no-repeat;
 }
 
-.myLink {
-  color:#0275d8;
-}
 
 .myLink, .myLink:hover, .myLink:active, .myLink:visited, .myLink:focus {
   text-decoration: none;
@@ -143,7 +140,6 @@ body{
 
 #myBtn {
   display: inline;
-  color: #0275d8;
 }
 
 .show-me-link, .show-me-link:hover, .show-me-link:active, .show-me-link:visited, .show-me-link:focus {
@@ -158,19 +154,11 @@ body{
   display: none;
 }
 
-#join-link {
-  color: #0275d8;
-}
-
-
-#myBtnTwo {
-  color:#0275d8; 
-}
 
 #more-two {
   display: none;
 }
 
-.source-link {
-  color:#0275d8
+.important-link {
+  color: #0275d8;
 }
