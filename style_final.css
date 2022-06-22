@@ -137,6 +137,10 @@ body{
   color: none;
 }
 
+.myLink:visited {
+  color: #0275d8;
+}
+
 
 #myBtn {
   display: inline;
